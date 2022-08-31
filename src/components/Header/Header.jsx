@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -15,8 +16,8 @@ const Header = () => {
     return (
         <header className="sticky top-0 z-50 bg-white ">
             <nav className="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 ">
-                <div className="flex justify-center align-middle text-3xl text-green-600 font-bold "><a
-                    href="./">Helthify</a> 
+                <div className="flex justify-center align-middle text-3xl text-green-600 font-bold "><Link
+                    to="./">Helthify</Link>
                 </div>
                 {/* <!-- Hamburger --> */}
                 <svg onClick={handleHamburger} xmlns="http://www.w3.org/2000/svg" id="menu-button"
@@ -28,32 +29,32 @@ const Header = () => {
                 <div className={`${hamburger} w-full md:flex md:items-center md:w-auto justify-center`} id="menu">
                     <ul className="pt-4 text-base text-green-700 md:flex md:pt-0">
                         <li>
-                            <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="/">Home</a>
+                            <Link id="home-btn"
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/">Home</Link>
                         </li>
                         <li>
-                            <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="/reminder">Reminder</a>
+                            <Link id="home-btn"
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/reminder">Reminder</Link>
                         </li>
                         <li>
-                            <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="/diet">Diet Tracker</a>
+                            <Link id="home-btn"
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/diet">Diet Tracker</Link>
                         </li>
                         <li>
-                            <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="exercise">Exercise Tracker</a>
+                            <Link id="home-btn"
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/exercise">Exercise Tracker</Link>
                         </li>
                         <li>
-                            <a id="watchlist-btn" className="md:p-4 py-2 mr-4 block hover:text-green-900 "
-                                href="bmi">BMI</a>
+                            <Link id="watchlist-btn" className="md:p-4 py-2 mr-4 block hover:text-green-900 "
+                                to="/bmi">BMI</Link>
                         </li>
                         <li className='-ml-3'>
-                            <a href="/sos" id="login-btn" className="btn-md">
+                            <Link to="/sos" id="login-btn" className="btn-md">
                                 <span
                                     className="relative px-5 py-2 transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0">
                                     SOS
                                 </span>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
