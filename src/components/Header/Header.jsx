@@ -33,19 +33,19 @@ const Header = () => {
                         </li>
                         <li>
                             <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="#">Reminder</a>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="/reminder">Reminder</a>
                         </li>
                         <li>
                             <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="#">Diet Tracker</a>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="/diet">Diet Tracker</a>
                         </li>
                         <li>
                             <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="#">Exercise Tracker</a>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="exercise">Exercise Tracker</a>
                         </li>
                         <li>
                             <a id="watchlist-btn" className="md:p-4 py-2 mr-4 block hover:text-green-900 "
-                                href="#">BMI</a>
+                                href="bmi">BMI</a>
                         </li>
                         <li className='-ml-3'>
                             <a href="#" id="login-btn" className="btn-md">
