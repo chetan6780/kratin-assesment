@@ -29,7 +29,7 @@ const Header = () => {
                     <ul className="pt-4 text-base text-green-700 md:flex md:pt-0">
                         <li>
                             <a id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="#">Home</a>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " href="/">Home</a>
                         </li>
                         <li>
                             <a id="home-btn"
@@ -48,7 +48,7 @@ const Header = () => {
                                 href="bmi">BMI</a>
                         </li>
                         <li className='-ml-3'>
-                            <a href="#" id="login-btn" className="btn-md">
+                            <a href="/sos" id="login-btn" className="btn-md">
                                 <span
                                     className="relative px-5 py-2 transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0">
                                     SOS
