@@ -1,4 +1,5 @@
 import { useState } from "react";
+import nature from "../../img/nature.jpg";
 
 export default function App() {
     const [height, setHeight] = useState("");
@@ -26,10 +27,11 @@ export default function App() {
     }
 
     return (
-        <div className="grid place-items-center">
-            <div className="w-full max-w-xs m-10">
-                <form className="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                    <h1 className="text-center mb-4 text-xl"> BMI Calculator</h1>
+        <div className="absolute w-full h-full right-auto left-auto grid place-items-center" style={{backgroundImage:`url(${nature})`}}>
+            <div className="w-full max-w-xs m-10 ">
+                <form className="absolute top-16 bg-gray-100 shadow-md border rounded-xl border-green-500 px-8 pt-6 pb-8 mt-1">
+                    <h1 className="text-center text-green-600 mb-4 text-xl font-semibold"> BMI Calculator</h1>
+                    <p className=" relative max-w-[250px] text-sm text-gray-500 text-center pb-5">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.</p>
                     <div className="mb-4">
                         <label
                             className="block text-gray-700 text-sm font-bold mb-2"
@@ -70,13 +72,13 @@ export default function App() {
                             Calculate BMI
                         </button>
                     </div>
-                    {bmiResult && (
+                </form>
+                {bmiResult && (
                         <div className="mt-4">
                             <p>Your BMI is: {bmiResult} </p>
                             <p>You are currently: {status}</p>
                         </div>
                     )}
-                </form>
             </div>
         </div>
     );
