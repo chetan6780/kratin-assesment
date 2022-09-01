@@ -27,7 +27,7 @@ export default function App() {
     }
 
     return (
-        <div className="absolute w-full h-full right-auto left-auto grid place-items-center" style={{backgroundImage:`url(${nature})`}}>
+        <div className="absolute w-full h-full right-auto left-auto grid place-items-center" style={{ backgroundImage: `url(${nature})` }}>
             <div className="w-full max-w-xs m-10 ">
                 <form className="absolute top-16 bg-gray-100 shadow-md border rounded-xl border-green-500 px-8 pt-6 pb-8 mt-1">
                     <h1 className="text-center text-green-600 mb-4 text-xl font-semibold"> BMI Calculator</h1>
@@ -65,20 +65,21 @@ export default function App() {
                     </div>
                     <div className="flex items-center justify-center">
                         <button
-                            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            className="bg-green-600 hover:bg-green-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                             type="button"
                             onClick={calculateBMI}
                         >
                             Calculate BMI
                         </button>
                     </div>
-                </form>
-                {bmiResult && (
+                    {bmiResult && (
                         <div className="mt-4">
                             <p>Your BMI is: {bmiResult} </p>
                             <p>You are currently: {status}</p>
                         </div>
                     )}
+                </form>
+
             </div>
         </div>
     );

@@ -15,6 +15,7 @@ const Header = () => {
 
     return (
         <header className="sticky top-0 z-50 bg-white shadow-md ">
+            
             <nav className="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700">
                 <div className="flex justify-center align-middle text-3xl text-green-600 pl-4 "><Link
                     to="./">Helthify</Link>
