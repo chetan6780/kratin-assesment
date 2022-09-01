@@ -14,8 +14,8 @@ const Header = () => {
     }
 
     return (
-        <header className="sticky top-0 z-50 bg-white ">
-            <nav className="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 ">
+        <header className="sticky top-0 z-50 bg-white shadow-md ">
+            <nav className="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 font-semibold">
                 <div className="flex justify-center align-middle text-3xl text-green-600 font-bold "><Link
                     to="./">Helthify</Link>
                 </div>
@@ -34,15 +34,15 @@ const Header = () => {
                         </li>
                         <li>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/reminder">Reminder</Link>
-                        </li>
-                        <li>
-                            <Link id="home-btn"
                                 className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/diet">Diet Tracker</Link>
                         </li>
                         <li>
                             <Link id="home-btn"
                                 className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/exercise">Exercise Tracker</Link>
+                        </li>
+                        <li>
+                            <Link id="home-btn"
+                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/entertainment">Entertainment</Link>
                         </li>
                         <li>
                             <Link id="watchlist-btn" className="md:p-4 py-2 mr-4 block hover:text-green-900 "

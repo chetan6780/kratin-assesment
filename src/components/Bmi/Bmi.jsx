@@ -7,6 +7,7 @@ export default function App() {
     const [status, setStatus] = useState("");
 
     function calculateBMI() {
+
         let bmi = Number(weight / (height / 100) ** 2).toFixed(2);
         setBmiResult(bmi);
 
@@ -32,8 +33,7 @@ export default function App() {
                     <div className="mb-4">
                         <label
                             className="block text-gray-700 text-sm font-bold mb-2"
-                            for="username"
-                        >
+                            for="username">
                             Height
                         </label>
                         <input
