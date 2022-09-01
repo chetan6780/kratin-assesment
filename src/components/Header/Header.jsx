@@ -27,25 +27,25 @@ const Header = () => {
                 </svg>
 
                 <div className={`${hamburger} w-full md:flex md:items-center md:w-auto justify-center`} id="menu">
-                    <ul className="pt-4 text-base text-green-700 md:flex md:pt-0">
+                    <ul className="pt-4 text-base text-green-600 md:flex md:pt-0">
                         <li>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/">Home</Link>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-800 " to="/">Home</Link>
                         </li>
                         <li>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/diet">Diet Tracker</Link>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-800 " to="/diet">Diet Tracker</Link>
                         </li>
                         <li>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/exercise">Exercise Tracker</Link>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-800 " to="/exercise">Exercise Tracker</Link>
                         </li>
                         <li>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 mr-2 block hover:text-green-900 " to="/entertainment">Entertainment</Link>
+                                className="md:p-4 py-2 mr-2 block hover:text-green-800 " to="/entertainment">Entertainment</Link>
                         </li>
                         <li>
-                            <Link id="watchlist-btn" className="md:p-4 py-2 mr-4 block hover:text-green-900 "
+                            <Link id="watchlist-btn" className="md:p-4 py-2 mr-4 block hover:text-green-800 "
                                 to="/bmi">BMI</Link>
                         </li>
                         <li className='-ml-3'>
