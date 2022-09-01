@@ -9,6 +9,10 @@ export default function App() {
 
     function calculateBMI() {
 
+        if (!weight || !height) {
+            alert("Please enter both weight and height");
+            return;
+        }
         let bmi = Number(weight / (height / 100) ** 2).toFixed(2);
         setBmiResult(bmi);
 

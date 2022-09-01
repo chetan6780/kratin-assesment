@@ -9,7 +9,7 @@ const Hero = () => {
                 <div style={{ backgroundImage: `url(${nature})` }}>
                     <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 ">
                         <h1 className="text-4xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-gray-600">Hey Sunita! let's enjoy life to it's fullest!</h1>
-                        <p className="mt-6 mb-8 text-md  sm:mb-12 xl:max-w-2xl text-gray-700">Here is mantra for you to stay heathy and happy. Star with some light exercise and yoga, follow your diet and entertain yourself with music and movies. </p>
+                        <p className="mt-6 mb-8 text-md  sm:mb-12 xl:max-w-2xl text-gray-700">Here is mantra for you to stay heathy and happy. Start with some light exercise and yoga, follow your diet and enjoy with music and movies. </p>
                     </div>
                 </div>
                 {/* 480x320 */}
