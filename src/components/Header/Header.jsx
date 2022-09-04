@@ -17,7 +17,7 @@ const Header = () => {
         <header className="sticky top-0 z-50 bg-white shadow-md ">
             <nav className="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700">
                 <div className="flex justify-center align-middle text-3xl text-green-600 pl-4 "><Link
-                    to="./">Helthify</Link>
+                    to="./">Healthify</Link>
                 </div>
                 {/* <!-- Hamburger --> */}
                 <svg onClick={handleHamburger} xmlns="http://www.w3.org/2000/svg" id="menu-button"
@@ -40,10 +40,10 @@ const Header = () => {
                             <Link id="home-btn"
                                 className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/yoga">Yoga & Exercise</Link>
                         </li>
-                        <li onClick={handleHamburger}>
+                        {/* <li onClick={handleHamburger}>
                             <Link id="home-btn"
                                 className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/entertainment">Entertainment</Link>
-                        </li>
+                        </li> */}
                         <li onClick={handleHamburger}>
                             <Link id="watchlist-btn" className="md:p-4 py-2 ml-2 mr-2 block hover:text-green-800"
                                 to="/bmi">BMI</Link>

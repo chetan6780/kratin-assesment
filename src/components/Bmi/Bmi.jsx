@@ -32,7 +32,7 @@ export default function App() {
 
     return (
         
-        <div className="absolute w-full h-[93vh] right-auto left-auto grid place-items-center" style={{ backgroundImage: `url(${nature})` }}>
+        <div className="absolute w-full h-[93vh] right-auto left-auto grid place-items-center bg-green-100" style={{ backgroundImage: `url(${nature})` }}>
             <div className="w-full max-w-xs m-10 ">
                 <form className="absolute top-16 bg-gray-100 shadow-md border rounded-xl border-green-500 px-8 pt-6 pb-8 mt-1">
                     <h1 className="text-center text-green-600 mb-4 text-xl font-semibold"> BMI Calculator</h1>
