@@ -1,5 +1,5 @@
 import React from 'react'
-import oldLady from '../../img/old-lady.jpg'
+import sunita from '../../img/old-lady.jpg'
 import nature from '../../img/nature.jpg'
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
                     </div>
                 </div>
                 {/* 480x320 */}
-                <img src={oldLady} alt="" className="w-5/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500" />
+                <img src={sunita} alt="" className="w-5/6 mx-auto mb-12 -mt-20 rounded-3xl shadow-md lg:-mt-40 dark:bg-gray-500" />
                 <div className='h-60 -mt-32 -z-50'>
                     <p className='w-full py-4 absolute  text-center text-gray-600 bottom-0'>
                         <a href="https://github.com/chetan6780">Made for Sunita by @chetan6780</a>

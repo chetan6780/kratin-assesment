@@ -34,11 +34,11 @@ const Header = () => {
                         </li>
                         <li onClick={handleHamburger}>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/diet">Diet Tracker</Link>
+                                className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/diet">Diet</Link>
                         </li>
                         <li onClick={handleHamburger}>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/exercise">Exercise Tracker</Link>
+                                className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/exercise">Yoga & Exercise</Link>
                         </li>
                         <li onClick={handleHamburger}>
                             <Link id="home-btn"
