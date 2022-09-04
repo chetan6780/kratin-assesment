@@ -1,17 +1,21 @@
 import React from 'react'
+import dietImg from '../../img/dietbg.png'
 
 const Diet = () => {
   return (
     <div className='bg-sky-50 pb-10'>
-
-      {/* list of what to put on your plate */}
-      <h1 className='text-center text-3xl text-green-600 pt-10'>What to put on your plate?</h1>
-
-      <div className='md:text-center px-8 py-4 md:px-80 mt-2 text-gray-900'>
-        You probably know a healthy diet benefits you physically, mentally and socially. Without good food and drink choices, you're at greater risk of chronic diseases, such as cardiovascular disease, type 2 diabetes, some cancers, and even mental health issues, such as anxiety and depression. A healthy diet helps socially too - regularly connecting with other people may stave off loneliness and isolation.
+      <div className='w-full md:h-96 h-80 flex flex-col items-center justify-center' style={{ backgroundImage: `url(${dietImg})` }}>
+        <h1 className='text-white text-3xl'>What to put on your plate?</h1>
+        <div className='text-center pt-5 px-5 max-w-2xl text-gray-100'>
+          {/* list of what to put on your plate */}
+          You probably know a healthy diet benefits you physically, mentally and socially. Without good food and drink choices, you're at greater risk of chronic diseases, such as cardiovascular disease, type 2 diabetes, some cancers, and even mental health issues, such as anxiety and depression. A healthy diet helps socially too - regularly connecting with other people may stave off loneliness and isolation.
+        </div>
       </div>
 
-      <ul className='px-8 md:px-80 mt-2 text-gray-800 list-disc'>
+
+      <h1 className='text-center text-3xl text-green-600 pt-10'>Here are some tips for healthy Diet</h1>
+
+      <ul className='px-8 md:px-80 mt-5 text-gray-800 list-disc'>
         <li>
           Eat a wide variety of foods from the five food groups plenty of colourful vegetables, legumes/beans; fruit; grain (cereal)foods, mostly wholegrain and high fibre varieties; lean
           meats and poultry, fish,eggs, tofu, nuts and seeds; milk, yoghurt, cheese or their alternatives, mostly reduced fat.

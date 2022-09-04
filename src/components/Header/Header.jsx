@@ -38,7 +38,7 @@ const Header = () => {
                         </li>
                         <li onClick={handleHamburger}>
                             <Link id="home-btn"
-                                className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/exercise">Yoga & Exercise</Link>
+                                className="md:p-4 py-2 ml-2 block hover:text-green-800 " to="/yoga">Yoga & Exercise</Link>
                         </li>
                         <li onClick={handleHamburger}>
                             <Link id="home-btn"
@@ -48,7 +48,7 @@ const Header = () => {
                             <Link id="watchlist-btn" className="md:p-4 py-2 ml-2 mr-2 block hover:text-green-800"
                                 to="/bmi">BMI</Link>
                         </li>
-                        <li className='mr-3 pt-[2px]'>
+                        <li onClick={handleHamburger} className='mr-3 pt-[2px]'>
                             <Link to="/sos" id="login-btn" className="btn-md">
                                 <span
                                     className="relative px-5 py-2 transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0">
