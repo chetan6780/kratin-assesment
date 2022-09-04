@@ -29,8 +29,8 @@ const Hero = () => {
 
                         <p className='text-gray-700'>Because of this, it's important to make healthy choices to strengthen your immune system and reduce the likelihood of illness.</p>
 
-                        <p className='py-4 text-3xl text-gray-700 font-semibold'> Remember these <span className='text-green-600'>nine tips</span> to stay healthy year-round</p>
-                        <ul className='list-decimal'>
+                        <p className='py-10 text-3xl text-gray-700 font-semibold'> Remember these <span className='text-green-600'>nine tips</span> to stay healthy year-round</p>
+                        <ul className='list-decimal text-gray-700'>
                             <li className='hover:text-green-600'>Get active</li>
                             <li className='hover:text-green-600'>Take supplements as necessary</li>
                             <li className='hover:text-green-600'>Eat a healthy diet</li>
